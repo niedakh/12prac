@@ -8610,6 +8610,6 @@ h2 {
 @media screen and (max-width: 999px) {
 	span.numbering {
 		display:inline-block;
-		margin-left: 3px;
+		margin-right: 3px;
 	}
 }
