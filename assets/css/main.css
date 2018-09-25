@@ -8608,8 +8608,8 @@ h2 {
 
 
 @media screen and (max-width: 999px) {
-	span.numbering {
-		display:inline-block;
-		margin-right: 3px;
+	span.numbering::after {
+  content: "  ";
+  white-space: pre;
 	}
 }
