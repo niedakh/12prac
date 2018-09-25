@@ -8596,10 +8596,12 @@ input, select, textarea {
 h2 {
 	position: relative;
 }
-span.numbering {
-	position: absolute;
-  left: -1.3em;
-  font-family: "Source Serif Pro", Georgia, serif;
-  font-weight: 300;
-  font-size: 60%;
+
+@media screen and (min-width: 1000px) {
+	span.numbering {
+		position: absolute;
+	  left: -1.3em;
+	  font-weight: 300;
+	  font-size: 60%;
+	}
 }
